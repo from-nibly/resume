@@ -1,0 +1,8 @@
+- About Me
+- [Overview](/#about-me)
+- [Work History](/work-history)
+- [Tech I Love](/tech-i-love)
+- [Books I love](/books-i-love)
+- Notes
+  - [California Gold Rush](/notes/california-gold-rush)
+  - [Product vs Project](/notes/product-vs-project)
