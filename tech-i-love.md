@@ -63,6 +63,13 @@ in the cloud.
 
 ## Prettier
 
+> Consistency is almost always better than being right - Professor Welborn
+
+Prettier takes the politics out of formatting. Just create a settings file, turn
+on auto format and you are done. You can even use prettier to auto format
+existing commits while retaining git blame. When you have a hyper consistent
+formatter your git diffs are all about the code and not about the formatting.
+
 ## Mechanical Keyboards
 
 If you can't handle me at my clackiest... You probably don't care, but I do. I
