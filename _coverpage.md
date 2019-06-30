@@ -11,3 +11,4 @@
 
 [GitHub](https://github.com/from-nibly)
 [LinkedIn](https://www.linkedin.com/in/jordandavidson3102/)
+[About Me](/#about-me)
