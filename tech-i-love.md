@@ -61,7 +61,7 @@ from imperative to declarative, you transform
 good job of turning infrastructure tasks into declarative code, enabling GitOps
 in the cloud.
 
-## Prettier
+## [Prettier](https://prettier.io)
 
 > Consistency is almost always better than being right - Professor Welborn
 
