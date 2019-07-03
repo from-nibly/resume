@@ -38,10 +38,10 @@ Dependency injection library
 
 ### Virtual Machine + Compiler (Available on Request)
 
-Not supposed to make this repository public because it was a school assignment
-and if it was public people could just clone it and turn it in as their own. I
-wrote a RISCish virtual machine with a debugger, and a compiler that compiled to
-the RISCish architecture as my capstone project at UVU.
+I can't make this repository public because it was a school assignment and if it
+was public people could just clone it and turn it in as their own. I wrote a
+RISCish virtual machine with a debugger, and a compiler that compiled to the
+RISCish architecture as my capstone project at UVU.
 
 ## Projects I have contributed to
 
