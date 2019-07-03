@@ -22,7 +22,7 @@ Configuration Library for 12 factor apps based on Spring Configuration.
 
 ### wyre (Old)
 
-Websocket client wrapper.
+WebSocket client wrapper.
 
 | !no-header!                                  | !no-header!                               |
 | -------------------------------------------- | ----------------------------------------- |
@@ -35,6 +35,13 @@ Dependency injection library
 | !no-header!                                    | !no-header!                                 |
 | ---------------------------------------------- | ------------------------------------------- |
 | [GitHub](https://github.com/from-nibly/salyne) | [npm](https://www.npmjs.com/package/salyne) |
+
+### Virtual Machine + Compiler (Available on Request)
+
+Not supposed to make this repository public because it was a school assignment
+and if it was public people could just clone it and turn it in as their own. I
+wrote a RISCish virtual machine with a debugger, and a compiler that compiled to
+the RISCish architecture as my capstone project at UVU.
 
 ## Projects I have contributed to
 
