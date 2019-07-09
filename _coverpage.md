@@ -2,7 +2,7 @@
 
 # Jordan Davidson
 
-> [Always make shovels](/notes.md#)
+> [Always make shovels](/notes/california-gold-rush.md)
 
 - Spanish Fork, Utah, United States
 - [thatoneemail@gmail.com](mailto:thatoneemail@gmail.com?body=Hey%2C%20I%20saw%20your%20resume%20online...)
