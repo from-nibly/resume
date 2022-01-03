@@ -51,15 +51,7 @@ Is it 1990 again? Bash itself isn't the best language per se but the paradigm is
 so great for building plumbing especially infrastructure. In most
 languages/platforms, stringing together disparate technologies usually requires
 SDKs or other libraries. In Bash, stringing together disparate systems is
-idiomatic. Heck, even `[` is just a program on your `PATH`.
-
-## [Terraform](https://www.terraform.io/)
-
-I've recently discovered Terraform, and I love it. Any time you change a process
-from imperative to declarative, you transform
-[Projects into Products](/notes/product-vs-project). Terraform does a really
-good job of turning infrastructure tasks into declarative code, enabling GitOps
-in the cloud.
+idiomatic. Heck, even `[` is sometimes just a program on your `PATH`.
 
 ## [Prettier](https://prettier.io)
 

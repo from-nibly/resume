@@ -2,9 +2,85 @@
 
 Work Histories are split into summary, tech, and story for easy skimming.
 
+# Let's Go Give - CTO / Co-Founder
+
+### Aug 2020 - Present
+
+#### Summary
+
+- Developed Frontend and backend apps.
+- Implemented nix-env/direnv based tooling for lightning fast, and stable
+  onboarding on mac and linux.
+- Implemented tilt for local development
+
+#### Tech Used
+
+| General                                               | Kubernetes                                         | Major Libraries                         |
+| ----------------------------------------------------- | -------------------------------------------------- | --------------------------------------- |
+| [Node.js](https://nodejs.org)                         | [Fluxcd](https://fluxcd.io/)                       | [TSed](https://tsed.io/)                |
+| [Typescript](https://typescriptlang.org)              | [Kubernetes](https://kubernetes.io/)               | [React](https://reactjs.org/)           |
+| [PostgreSQL](https://www.postgresql.org/)             | [Tilt](https://tilt.dev/)                          | [Vite](https://vitejs.dev/)             |
+| [Github Actions](https://github.com/features/actions) | [GKE](https://cloud.google.com/kubernetes-engine/) | [Tailwindcss](https://tailwindcss.com/) |
+| [direnv](https://direnv.net/)                         | [K3s](https://k3s.io/)                             |
+| [nix-env](https://nixos.org/manual/nix/stable/)       | [Kustomize](https://kustomize.io/)                 |
+
+#### Story
+
+I met Ben Wright, my co-founder, in August 2020 and together we started working
+on GoGive, A platform for business to easily give charitable donations as gifts
+to employees, customers and prospects. I created the entire platform with some
+help from others from time to time. The company is completely bootstrapped at
+the time of writing this. Every product, tech decision has been made by myself
+and my Co-Founder Ben. Solo development is a lot different from developing on a
+team, or in a big organization and it has been an amazing learning experience.
+
+# Parakeet / Brivo Inc - Sr. Software Developer
+
+### Aug 2019 - Jun 2021
+
+#### Summary
+
+- Lead team in tech debt remediation
+  - Successful migration to kubernetes
+  - Successful upgrade from python 2.7 -> 3.9
+  - Introduction of python types in repo
+  - Reenabled tests during build
+- Managed CI/CD system
+  - Implemented CI/CD in bitbucket pipelines
+  - Auto deploy to QA, migrations, tests
+  - Branch deploy for QA testing
+- Implemented unified system for complex device models
+- Lead several teams on implementation of cryptographic lock technology
+- Fixed several "unfixable" bugs
+- Instrumented large scale integration framework
+
+#### Tech Used
+
+| General                                                                 | Kubernetes                           |
+| ----------------------------------------------------------------------- | ------------------------------------ |
+| [Python](https://www.python.org/)                                       | [Kubernetes](https://kubernetes.io/) |
+| [Django](https://www.djangoproject.com/)                                | [Pulumi](https://www.pulumi.com/)    |
+| [PostgreSQL](https://www.postgresql.org/)                               | [Fluxcd](https://fluxcd.io/)         |
+| [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) | [Helm](https://helm.sh/)             |
+| [Amazon AWS](https://aws.amazon.com/)                                   |
+| [Let's Encrypt](https://letsencrypt.org/)                               |
+| [Small Steps CA](https://smallstep.com/)                                |
+
+#### Story
+
+I joined parakeet to get some more experience working with a small team. When I
+got there deployments were pushing code to the servers directly with an scp
+command. There was no way to run the entire product on your local machine. The
+first thing I did was convert everything to run on kubernetes. It took me three
+days to get it working for myself and probably 6 months to get it to be the
+defacto way to run the system locally. I used pulumi to ensure local development
+differences were configurable. I educated the entire team on kubernetes, and how
+to use the tooling locally. This allowed us a testing environment so we could
+ship code with confidence.
+
 # Domo, Inc. - Software Engineer
 
-### Mar 2015 - Present
+### Mar 2015 - Aug 2019
 
 #### Summary
 
