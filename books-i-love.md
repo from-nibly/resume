@@ -39,3 +39,36 @@ out that it's normal for creative work to be that way. People who do great
 things aren't magically better at stuff, they are just more persistent and
 thoughtful about what they are doing. Ultimately shipping creative work doesn't
 have a manual. If it had one it wouldn't be creative.
+
+## Other Books I've read / am reading
+
+_in no particular order_
+
+- The Phoenix Project
+- Hunt Gather Parent
+- Critical Chain
+- Beyond the Goal
+- How to talk so little kids will listen
+- Team Topologies
+- The 4 Stages of Psychological Safety
+- Giftology
+- ABM is B2B
+- How to Manage Your Home Without Losing Your Mind
+- Zero to One
+- The Innovator's Dilemma
+- Smarter Faster Better
+- Leadershift
+- Start with Why
+- Educated
+- Better than Before
+- Crucial Conversations
+- Tribal Leadership
+- Good to Great
+- The Culture Code
+- Radical Candor
+- Measure what Matters
+- The Soul of a New Machine
+- Grit
+- The Challenger Sale
+- The Lean Startup
+- And basically everything that Brandon Sanderson has ever published.
