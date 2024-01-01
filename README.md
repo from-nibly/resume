@@ -20,7 +20,8 @@ describe how to improve the world.
 
 I have the most fun when I can enable developers to contribute more freely and,
 Focus on what matters; delivering value to the customer. Every day this gets
-harder and harder for developers.
+harder and harder for developers, but I believe it's possible to reverse this
+trend.
 
 Are you looking to make your development organization a
 [Theme Park Experience](/notes/theme-park-experience)? I want to help. Together
