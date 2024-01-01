@@ -1,5 +1,13 @@
 # Tech I love (And why I love it)
 
+## [Cuelang](https://cuelang.org)
+
+Cue is a new configuration language that is designed to add logic programming to
+configuration languages. Configuration as code is a really important concept.
+Cuelang is the first language that I feel does this concept justice. With just a
+few lines of readable cuelang you can reimplement the important functions of
+helm. Cuelang has the ability to import packages, and create reusable modules.
+
 ## [Kubernetes](https://kubernetes.io)
 
 Kubernetes has completely taken the development world over. Every cloud provider

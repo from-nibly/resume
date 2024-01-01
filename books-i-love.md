@@ -1,37 +1,41 @@
 # Books I Love
 
-# [The Lean Startup](http://theleanstartup.com/)
+# [The Goal](<https://en.wikipedia.org/wiki/The_Goal_(novel)>)
 
-![Book-Cover](_media/the-lean-startup.jpg)
-
-<sub>image taken from amazon.com</sub>
-
-Eric Ries explains beautifully how to apply the scientific method, and the lean
-manufacturing methodology, to software development and design. Rather than
-building what your customers say they want, focus on measuring customer
-behavior, and experiment to figure out what works.
-
-# [OKRs Measure What Matters](https://www.whatmatters.com/)
-
-![Book-Cover](_media/okrs.jpg)
+<img src="_media/the-goal.jpg" alt="Book-Cover" width="290">
 
 <sub>image taken from amazon.com</sub>
 
-John Doerr recounts his experience with his mentors management system. OKRs
-(i.e. Objectives and Key Results) framework how to prioritize what is most
-important to be doing, help employees stretch for excellence, and inform
-leadership the capacity and direction of the company. With well applied OKRs
-there is less confusion and more company unity.
+The goal lays out, in exacting terms, what a company needs in order to succeed.
+The Theory of Constraints described in the book is a physisyist's approach to
+business. Having an first principles understanding of how things work is
+extremely important. The goal showcases this approach to something most people
+think is a gut feeling: business. Even more important are his considerations
+around when something is complete. Contrary to popular belief software isn't
+done until the customer is gaining value from it.
 
-# [Grit: The Power of Passion and Perserverance](https://angeladuckworth.com/grit-book/)
+# [Decluttering at the Speed of Life](https://www.aslobcomesclean.com/)
 
-![Book-Cover](_media/grit.jpg)
+<img src="_media/decluttering.jpg" alt="Book-Cover" width="290">
 
 <sub>image taken from amazon.com</sub>
 
-Angela Duckworth summarizes her extensive research into what makes people
-successful. She found that grit, the ability to stick with something to it's
-completion, is the number one determiner for successful people. She explains how
-you can become more gritty, and how to help those around you do the same. Top
-level goals are a main focus in her book and give direction on what you should
-be gritty with and what you should give up on.
+Dana K White lays out her journey to getting her house in order. As in
+everything in life I draw a lot of parallels from this book into software. You
+aren't ever given a truly greenfield situation. The way out of messes isn't to
+"get a bigger house with more space" (or hire more developers) It's to slowly
+and methodically reduce the amount of crap you are dealing with. This is often a
+painful process but making software is all about pain.
+
+# [The Practice: Shipping Creative Work](https://angeladuckworth.com/grit-book/)
+
+<img src="_media/the-practice.jpg" alt="Book-Cover" width="290">
+
+<sub>image taken from amazon.com</sub>
+
+Seth Godin's book is an answer to the question "What would a hug look like if it
+was a book". Creative work is grueling, and often thankless. This book points
+out that it's normal for creative work to be that way. People who do great
+things aren't magically better at stuff, they are just more persistent and
+thoughtful about what they are doing. Ultimately shipping creative work doesn't
+have a manual. If it had one it wouldn't be creative.

@@ -2,9 +2,45 @@
 
 Work Histories are split into summary, tech, and story for easy skimming.
 
+# TAB Bank - Platform Engineering Architect
+
+### Feb 2022 - Present
+
+#### Summary
+
+- Took over the "DevOps" team and rebranded it to "Platform Engineering".
+- Migrated various systems to consolidate technology providers.
+- On call rotation for production systems.
+- Stabilized old kubernetes cluster.
+- Architected migration to EKS.
+- Discovery of how old systems work when broken.
+
+#### Tech Used
+
+| General            | Kubernetes                         | Observability  |
+| ------------------ | ---------------------------------- | -------------- |
+| [Jenkins]()        | [EKS](https://aws.amazon.com/eks/) | [Prometheus]() |
+| [Terraform]()      | [Kubernetes]()                     | [OpsGenie]()   |
+| [GitHub Actions]() | [ArgoCD]()                         | [Grafana]()    |
+| [CueLang]()        |                                    | [Loki]()       |
+| [Python]()         |                                    |
+
+#### Story
+
+I joined TAB Bank after my startup failed. I was hired to be the lead of
+"DevOps" team. I didn't know at the time but I was hired so another employee
+could leave without 0 handoff. This was really not very much handoff, I had
+about 6 months with him. Most of what I had to figure out I had to do through
+exploration, as this guy was also the current tail of a long line of handoffs.
+There were MANY technology stacks, presumably from every platform engineer
+trying to wrangle what they could as fast as they could and then getting burnt
+out. Despite these challenges I've been able to understand how the things that
+our team owns works, and how to keep it running. There's a LONG way to go, but
+I'm confident they will get there.
+
 # Let's Go Give - CTO / Co-Founder
 
-### Aug 2020 - Present
+### Aug 2020 - Feb 2022
 
 #### Summary
 
