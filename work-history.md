@@ -14,29 +14,28 @@ Work Histories are split into summary, tech, and story for easy skimming.
 - Stabilized old kubernetes cluster.
 - Architected migration to EKS.
 - Discovery of how old systems work when broken.
+- Onboarding of ArgoCD
+- Development of cuelang based configuration management system.
 
 #### Tech Used
 
-| General            | Kubernetes                         | Observability  |
-| ------------------ | ---------------------------------- | -------------- |
-| [Jenkins]()        | [EKS](https://aws.amazon.com/eks/) | [Prometheus]() |
-| [Terraform]()      | [Kubernetes]()                     | [OpsGenie]()   |
-| [GitHub Actions]() | [ArgoCD]()                         | [Grafana]()    |
-| [CueLang]()        |                                    | [Loki]()       |
-| [Python]()         |                                    |
+| General                                               | Kubernetes                                     | Observability                                           |
+| ----------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------- |
+| [Jenkins](https://jenkins.io/)                        | [EKS](https://aws.amazon.com/eks/)             | [Prometheus](https://prometheus.io/)                    |
+| [Terraform](https://www.terraform.io/)                | [Kubernetes](https://kubernetes.io/)           | [OpsGenie](https://www.atlassian.com/software/opsgenie) |
+| [GitHub Actions](https://github.com/features/actions) | [ArgoCD](https://argoproj.github.io/workflows) | [Grafana](https://grafana.com/)                         |
+| [CueLang](https://cuelang.org/)                       | [Loki](https://grafana.com/oss/loki/)          | [Python](https://www.python.org/)                       |
 
 #### Story
 
 I joined TAB Bank after my startup failed. I was hired to be the lead of
 "DevOps" team. I didn't know at the time but I was hired so another employee
-could leave without 0 handoff. This was really not very much handoff, I had
-about 6 months with him. Most of what I had to figure out I had to do through
-exploration, as this guy was also the current tail of a long line of handoffs.
-There were MANY technology stacks, presumably from every platform engineer
-trying to wrangle what they could as fast as they could and then getting burnt
-out. Despite these challenges I've been able to understand how the things that
-our team owns works, and how to keep it running. There's a LONG way to go, but
-I'm confident they will get there.
+could leave with little handoff; I had about 6 months with him. Most of what I
+figured out I did through exploration. There were MANY technology stacks,
+presumably from every platform engineer trying to wrangle what they could as
+fast as they could and then getting burnt out. Despite these challenges I've
+been able to understand how the things that our team owns works, and how to keep
+it running. There's a LONG way to go, but I'm confident they will get there.
 
 # Let's Go Give - CTO / Co-Founder
 

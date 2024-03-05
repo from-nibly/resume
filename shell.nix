@@ -6,5 +6,7 @@ pkgs.mkShell {
   buildInputs = with pkgs;
     [
       nodejs_20
+      unstable.pandoc
+      unstable.texliveFull
     ];
 }
