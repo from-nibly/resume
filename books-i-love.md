@@ -44,6 +44,9 @@ have a manual. If it had one it wouldn't be creative.
 
 _in no particular order_
 
+- Radical Acceptance
+- Antifragile
+- The Oz Principle
 - The Phoenix Project
 - Hunt Gather Parent
 - Critical Chain
