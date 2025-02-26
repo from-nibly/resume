@@ -2,9 +2,36 @@
 
 Work Histories are split into summary, tech, and story for easy skimming.
 
+# Arturo AI - Senior DevOps Engineer
+
+### Oct 2024 - Mar 2024
+
+#### Summary
+
+- Created AWS Infrastructure through Terraform
+- Created Modular CI/CD pipelines to enable developers to ship their own
+  terraform
+- Created Reusable modules to express company standards
+
+#### Tech Used
+
+| General                                                            |
+| ------------------------------------------------------------------ |
+| [AWS](https://aws.amazon.com/)                                     |
+| [Terraform](https://www.terraform.io/)                             |
+| [BASH](https://www.gnu.org/software/bash/)                         |
+| [Python](https://www.python.org/)                                  |
+| [Javascript](https://developer.mozilla.org/bm/docs/Web/JavaScript) |
+
+#### Story
+
+I joined Arturo to get back into the startup scene. I helped them migrate their
+Infrastructure from a total cowboy mess, to one that follows best practices.
+Unfortunately, shortly after I joined the company ran out of funding.
+
 # TAB Bank - Platform Engineering Architect
 
-### Feb 2022 - Present
+### Feb 2022 - Sept 2024
 
 #### Summary
 
