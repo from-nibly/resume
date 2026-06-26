@@ -1,0 +1,24 @@
+{
+  "name": "Jordan Davidson",
+  "headline": "I build internal platforms developers love to use.",
+  "summary": "I turn fragile deployment paths, local-dev friction, and tribal operational knowledge into systems teams can trust so developers can focus on shipping value instead of fighting the machinery.",
+  "location": "Spanish Fork, Utah",
+  "email": "jordan@davidson.house",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/from-nibly"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jordandavidson3102/"
+    }
+  ],
+  "focusAreas": [
+    "Platform engineering",
+    "Developer experience",
+    "CI/CD and deployment systems",
+    "Kubernetes and infrastructure as code",
+    "Incident process and observability"
+  ]
+}

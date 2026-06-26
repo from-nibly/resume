@@ -1,0 +1,32 @@
+[
+  {
+    "name": "optd",
+    "type": "Experimental project",
+    "url": "https://github.com/from-nibly/optd",
+    "summary": "An experiment in database-like duct tape for operational workflows."
+  },
+  {
+    "name": "kube-valet",
+    "type": "Open source contribution",
+    "url": "https://github.com/domoinc/kube-valet",
+    "summary": "Auto pod node assignment, pack-left, and autoscaling enablement for Kubernetes."
+  },
+  {
+    "name": "haproxy-ingress",
+    "type": "Open source contribution",
+    "url": "https://github.com/jcmoraisjr/haproxy-ingress",
+    "summary": "Kubernetes ingress controller contributions for required platform behavior."
+  },
+  {
+    "name": "@fromnibly/hallpass",
+    "type": "Older package",
+    "url": "https://github.com/from-nibly/hallpass",
+    "summary": "Express router wiring framework using Jersey-like annotations and classes."
+  },
+  {
+    "name": "@fromnibly/config",
+    "type": "Older package",
+    "url": "https://github.com/from-nibly/config",
+    "summary": "Configuration library for 12-factor apps based on Spring configuration ideas."
+  }
+]

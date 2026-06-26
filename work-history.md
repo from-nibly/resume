@@ -2,9 +2,54 @@
 
 Work Histories are split into summary, tech, and story for easy skimming.
 
+# Motion / Wonderly - Platform & Infrastructure Engineer
+
+### Apr 2025 - Jun 2026
+
+#### Summary
+
+- Built and maintained internal CI/CD tooling for large Typescript and .NET
+  monorepos.
+- Improved CircleCI, WCI, Dagger, and GitHub based workflows so developers got
+  faster and clearer feedback.
+- Created deployment automation for backend, web, and internal services.
+- Migrated secret management workflows to GCP Secret Manager, External Secrets,
+  and internal tooling.
+- Operated and improved Kubernetes and GCP infrastructure through Helm,
+  Kustomize, ArgoCD, and Pulumi.
+- Built on-call, incident, postmortem, and Slack automation to make production
+  support more repeatable.
+
+#### Tech Used
+
+| General                                                | Infrastructure                                     | Operations                                                                      |
+| ------------------------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [Typescript](https://typescriptlang.org)               | [GCP](https://cloud.google.com/)                   | [CircleCI](https://circleci.com/)                                               |
+| [Node.js](https://nodejs.org)                          | [GKE](https://cloud.google.com/kubernetes-engine/) | [GitHub Actions](https://github.com/features/actions)                           |
+| [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) | [Kubernetes](https://kubernetes.io/)               | [Dagger](https://dagger.io/)                                                    |
+| [.NET](https://dotnet.microsoft.com/)                  | [Helm](https://helm.sh/)                           | [Datadog](https://www.datadoghq.com/)                                           |
+| [Bun](https://bun.sh/)                                 | [Kustomize](https://kustomize.io/)                 | [Slack](https://slack.com/)                                                     |
+| [Docker](https://www.docker.com/)                      | [ArgoCD](https://argo-cd.readthedocs.io/)          | [Notion](https://www.notion.so/)                                                |
+| [BASH](https://www.gnu.org/software/bash/)             | [Pulumi](https://www.pulumi.com/)                  | [GCP Secret Manager](https://cloud.google.com/security/products/secret-manager) |
+
+#### Story
+
+I joined Motion and Wonderly to help make a fast moving engineering organization
+feel safer and easier to work in. Most of the work was at the seams between
+teams: CI, deploys, secrets, Kubernetes, incidents, and the developer workflows
+that make those systems usable. I spent a lot of time turning fragile or tribal
+knowledge into paved roads that developers could use without needing to know all
+of the historical details.
+
+The work crossed many repositories and stacks. I worked on Typescript monorepos,
+.NET backend services, internal CI packages, Kubernetes charts, GCP projects,
+GitHub webhooks, Slack automation, and incident tooling. The common theme was
+removing friction so engineers could spend more time delivering product value
+and less time fighting builds, deploys, credentials, and production process.
+
 # Arturo AI - Senior DevOps Engineer
 
-### Oct 2024 - Mar 2024
+### Oct 2024 - Mar 2025
 
 #### Summary
 

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Theme Park Experience",
+    "url": "theme-park-experience.html",
+    "kind": "Operating philosophy",
+    "summary": "A metaphor for developer organizations where teams can focus on choosing the right ride instead of operating the park."
+  },
+  {
+    "title": "Product vs Project",
+    "url": "product-vs-project.html",
+    "kind": "Operating philosophy",
+    "summary": "Why internal software work should create repeatable product-like machinery instead of one-off project heroics."
+  },
+  {
+    "title": "Always make shovels",
+    "url": "always-make-shovels.html",
+    "kind": "Personal model",
+    "summary": "The reasoning behind the California Gold Rush metaphor."
+  },
+  {
+    "title": "Tech I Love",
+    "url": "tech.html",
+    "kind": "Technology taste",
+    "summary": "Technologies and tools Jordan likes, with reasoning behind those preferences."
+  },
+  {
+    "title": "Books I Love",
+    "url": "books.html",
+    "kind": "Mental models",
+    "summary": "Books that shape Jordan's approach to systems, work, and improvement."
+  }
+]

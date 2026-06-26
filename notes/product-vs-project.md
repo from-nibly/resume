@@ -18,7 +18,6 @@ Software development can be either one. When software development is treated
 like a project it becomes unstable and requires a lot of manual effort outside
 of writing the actual code. When software development is treated like a product
 the main focus can remain on features and code quality. (see also
-[Theme Park Experience](/notes/theme-park-experience)). A lot of this comes down
-to the tools surrounding your process. I enjoy building tools, refining
-processes, and establishing cultures that facilitate a product mindset within
-software development organizations.
+[Theme Park Experience](/notes/theme-park-experience)). I enjoy building tools,
+refining processes, and establishing cultures that facilitate a product mindset
+within software development organizations.

@@ -1,50 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Jordan Davidson - Resume</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Resume" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="description"
+      content="Jordan Davidson — platform engineering, developer experience, and infrastructure leadership resume."
     />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/docsify/lib/themes/vue.css"
-    />
+    <title>Jordan Davidson — Platform Engineering Resume</title>
+    <link rel="canonical" href="https://resume.fromnibly.com/" />
+    <link rel="alternate" type="application/json" href="resume.json" />
+    <link rel="stylesheet" href="assets/css/home.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script>
-      const parser = new DOMParser();
-      window.$docsify = {
-        name: 'Jordan Davidson',
-        repo: 'github.com/from-nibly/resume',
-        homepage: 'README.md',
-        basePath: '/',
-        coverpage: true,
-        loadSidebar: true,
-        subMaxLevel: 2,
-        maxLevel: 4,
-        auto2top: true,
-        ga: 'UA-143079631-1',
-        markdown: {
-          renderer: {
-            table: function (header, body) {
-              items = ['<table>', '</table>'];
-              if (header.indexOf('!no-header!') !== -1) {
-                items.splice(1, 0, body);
-              } else {
-                items.splice(1, 0, header, body);
-              }
-              return items.join('');
-            },
-          },
-        },
-      };
-    </script>
-    <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
-    <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Jordan Davidson home">
+          <span class="brand-mark">JD</span>
+          <span>Jordan Davidson</span>
+        </a>
+        <div class="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#philosophy">Philosophy</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="resume.html">Printable résumé</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            Platform Engineering • DevEx • Infrastructure as Product
+          </p>
+          <h1>
+            I build internal platforms
+            <span class="marker marker-yellow">developers love to use.</span>
+          </h1>
+          <p class="hero-lede">
+            I’m Jordan Davidson, a hands-on platform engineering leader in Utah.
+            I turn fragile deployment paths, local-dev friction, and tribal
+            operational knowledge into systems teams can trust — so developers
+            can focus on shipping value instead of fighting the machinery.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#experience"
+              >See experience</a
+            >
+            <a
+              class="button button-secondary"
+              href="mailto:jordan@davidson.house?body=Hey%2C%20I%20saw%20your%20resume%20online..."
+            >
+              Email me
+            </a>
+          </div>
+          <div class="signal-list" aria-label="Career highlights">
+            <span>GCP + Kubernetes platforms</span>
+            <span>CI/CD and developer tooling</span>
+            <span>Full-stack web</span>
+            <span>Startup CTO experience</span>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Jordan Davidson contact summary">
+          <div class="avatar-ring">
+            <img src="_media/avatar.jpg" alt="Jordan Davidson" />
+          </div>
+          <div>
+            <p class="card-kicker">Resume snapshot</p>
+            <h2>Platform engineer who likes making the hard path disappear.</h2>
+          </div>
+          <dl class="contact-list">
+            <div>
+              <dt>Location</dt>
+              <dd>Spanish Fork, Utah</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd>
+                <a href="mailto:jordan@davidson.house">jordan@davidson.house</a>
+              </dd>
+            </div>
+            <div>
+              <dt>Social</dt>
+              <dd>
+                <a href="https://github.com/from-nibly">GitHub</a>
+                <span aria-hidden="true">•</span>
+                <a href="https://www.linkedin.com/in/jordandavidson3102/"
+                  >LinkedIn</a
+                >
+              </dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section
+        class="section-shell proof-grid"
+        aria-label="What Jordan is known for"
+      >
+        <article class="proof-card proof-card-featured">
+          <p class="card-kicker">What I optimize for</p>
+          <h2>A “theme park” developer experience.</h2>
+          <p data-md-excerpt="notes/theme-park-experience.md">
+            Developers should be able to focus on solving customer problems, not
+            repetitive tasks, red tape, or mysterious local-environment
+            failures.
+          </p>
+        </article>
+        <article class="proof-card">
+          <p class="card-kicker">Pattern</p>
+          <h3>Turn projects into products</h3>
+          <p>
+            Build reusable machinery so the next service, environment, or
+            pipeline gets easier instead of merely done.
+          </p>
+        </article>
+        <article class="proof-card">
+          <p class="card-kicker">Range</p>
+          <h3>From code to clusters</h3>
+          <p>
+            Full-stack product work, CI/CD, Kubernetes, Terraform,
+            observability, local development, and production operations.
+          </p>
+        </article>
+      </section>
+
+      <section id="experience" class="section-shell split-section">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>I turn messy engineering systems into paved roads.</h2>
+          <p>
+            Across startups, banks, and product companies, my work has usually
+            lived at the seams: CI/CD, infrastructure, local development,
+            deployments, secrets, observability, and incident process. I like
+            finding the fragile parts developers keep tripping over and turning
+            them into tools, workflows, and platforms people can trust.
+          </p>
+        </div>
+
+        <div class="timeline" aria-label="Work history highlights">
+          <article class="role-card accent-green">
+            <div class="role-meta">
+              <span>Platform & Infrastructure Engineer</span>
+              <span>Motion / Wonderly • 2025–2026</span>
+            </div>
+            <h3>Made fast-moving engineering workflows safer and clearer.</h3>
+            <p>
+              Built CI/CD tooling, deployment automation, secret workflows,
+              Kubernetes/GCP infrastructure, and incident automation across
+              TypeScript and .NET systems.
+            </p>
+            <ul class="tag-list" aria-label="Motion and Wonderly technologies">
+              <li>GCP</li>
+              <li>GKE</li>
+              <li>CircleCI</li>
+              <li>Dagger</li>
+              <li>Datadog</li>
+            </ul>
+          </article>
+
+          <article class="role-card accent-orange">
+            <div class="role-meta">
+              <span>Senior DevOps Engineer</span>
+              <span>Arturo AI • 2024–2025</span>
+            </div>
+            <h3>Created reusable AWS infrastructure and CI/CD patterns.</h3>
+            <p>
+              Helped move infrastructure from a cowboy-style setup toward
+              Terraform-backed standards and self-service delivery workflows.
+            </p>
+            <ul class="tag-list" aria-label="Arturo technologies">
+              <li>AWS</li>
+              <li>Terraform</li>
+              <li>CI/CD</li>
+              <li>Python</li>
+            </ul>
+          </article>
+
+          <article class="role-card accent-blue">
+            <div class="role-meta">
+              <span>Platform Engineering Architect</span>
+              <span>TAB Bank • 2022–2024</span>
+            </div>
+            <h3>Reframed DevOps as platform engineering.</h3>
+            <p>
+              Stabilized inherited systems, architected EKS migration, onboarded
+              ArgoCD, and developed Cue-based configuration management.
+            </p>
+            <ul class="tag-list" aria-label="TAB technologies">
+              <li>EKS</li>
+              <li>ArgoCD</li>
+              <li>Cue</li>
+              <li>Grafana</li>
+            </ul>
+          </article>
+
+          <article class="role-card accent-purple">
+            <div class="role-meta">
+              <span>CTO / Co-Founder</span>
+              <span>Let’s Go Give • 2020–2022</span>
+            </div>
+            <h3>Built a bootstrapped product platform from the ground up.</h3>
+            <p>
+              Owned product and technology choices across frontend, backend,
+              local development, Kubernetes delivery, and onboarding workflows.
+            </p>
+            <ul class="tag-list" aria-label="Let's Go Give technologies">
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>PostgreSQL</li>
+              <li>Tilt</li>
+            </ul>
+          </article>
+
+          <article class="role-card accent-green">
+            <div class="role-meta">
+              <span>Sr. Software Developer</span>
+              <span>Parakeet / Brivo • 2019–2021</span>
+            </div>
+            <h3>Made local development and delivery safer.</h3>
+            <p>
+              Led migration work across Kubernetes, Python 3, typed Python,
+              CI/CD, branch deploys, and integration instrumentation.
+            </p>
+            <ul class="tag-list" aria-label="Parakeet technologies">
+              <li>Python</li>
+              <li>Django</li>
+              <li>Kubernetes</li>
+              <li>Pulumi</li>
+            </ul>
+          </article>
+
+          <article class="role-card accent-blue">
+            <div class="role-meta">
+              <span>Software Engineer</span>
+              <span>Domo • 2015–2019</span>
+            </div>
+            <h3>
+              Built the developer platforms behind large-scale local
+              environments.
+            </h3>
+            <p>
+              Designed Kubernetes-backed developer environments, platform CLIs,
+              logging infrastructure, certificate automation, registry caching,
+              and tools that helped teams create and operate service stacks.
+            </p>
+            <ul class="tag-list" aria-label="Domo technologies">
+              <li>Kubernetes</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+              <li>Go</li>
+              <li>Jenkins</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="section-more">
+          <a class="button button-secondary" href="experience.html">
+            More experience
+          </a>
+        </div>
+      </section>
+
+      <section id="philosophy" class="section-shell philosophy-section">
+        <div class="section-heading">
+          <p class="eyebrow">Operating philosophy</p>
+          <h2>My work is about making improvement repeatable.</h2>
+          <p data-md-excerpt="README.md">
+            I’ve spent my whole career trying to make processes better.
+          </p>
+        </div>
+        <div class="note-grid">
+          <a class="note-card" href="theme-park-experience.html">
+            <span>Note</span>
+            <h3>Theme Park Experience</h3>
+            <p>
+              What developer experience should feel like when platform work
+              succeeds.
+            </p>
+          </a>
+          <a class="note-card" href="product-vs-project.html">
+            <span>Note</span>
+            <h3>Product vs Project</h3>
+            <p>
+              Why internal platforms need product thinking, not one-off heroics.
+            </p>
+          </a>
+          <a class="note-card" href="books.html">
+            <span>Reading</span>
+            <h3>Books I Love</h3>
+            <p>The mental models behind the way I build systems and teams.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Want to make development feel less broken?</h2>
+          <p>
+            If your organization needs stronger platform engineering, better
+            developer experience, or calmer infrastructure delivery, I’d love to
+            talk.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a
+            class="button button-primary"
+            href="mailto:jordan@davidson.house?body=Hey%2C%20I%20saw%20your%20resume%20online..."
+          >
+            jordan@davidson.house
+          </a>
+          <a
+            class="button button-secondary"
+            href="https://www.linkedin.com/in/jordandavidson3102/"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="current-year">2026</span> Jordan Davidson</p>
+      <p>
+        <a href="experience.html">Full work history</a>
+      </p>
+    </footer>
+
+    <script src="assets/js/main.js?v=2026-06-26" type="module"></script>
   </body>
 </html>

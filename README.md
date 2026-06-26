@@ -1,7 +1,7 @@
 # About Me
 
-I've spent my whole career, heck, probably whole life, trying to make processes
-better.
+I've spent my career finding the friction in how teams work and turning it into
+better systems.
 
 I remember when I was about 8 years old my mom had bought about 30 large
 packages of diapers on sale. While my mom was bringing them in I spent the
@@ -18,10 +18,12 @@ by Dana K. White, and
 by Seth Godin. These books and all the books I read help me craft language to
 describe how to improve the world.
 
-I have the most fun when I can enable developers to contribute more freely and,
-Focus on what matters; delivering value to the customer. Every day this gets
-harder and harder for developers, but I believe it's possible to reverse this
-trend.
+I have the most fun when I can enable developers to contribute more freely and
+focus on what matters; delivering value to the customer. Recently that has meant
+building better CI/CD, deployment, infrastructure, and on-call systems so teams
+can spend less time fighting process and more time shipping value. Every day
+this gets harder and harder for developers, but I believe it's possible to
+reverse this trend.
 
 Are you looking to make your development organization a
 [Theme Park Experience](/notes/theme-park-experience)? I want to help. Together

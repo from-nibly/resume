@@ -1,0 +1,419 @@
+:root {
+  color-scheme: light;
+  --ink: #1f2430;
+  --ink-soft: #4d5567;
+  --muted: #6d7484;
+  --paper: #fffaf1;
+  --card: #fffdf8;
+  --line: rgba(69, 52, 29, 0.16);
+  --orange: #ff8a4c;
+  --yellow: #ffd166;
+  --green: #5ec29f;
+  --shadow: 0 24px 70px rgba(64, 43, 21, 0.12);
+  --font-sans:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #f7eddb;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  line-height: 1.45;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(255, 209, 102, 0.34),
+      transparent 28rem
+    ),
+    radial-gradient(
+      circle at 88% 8%,
+      rgba(93, 169, 233, 0.2),
+      transparent 28rem
+    ),
+    linear-gradient(135deg, #fffaf0 0%, #f7eddb 100%);
+}
+
+a {
+  color: inherit;
+}
+
+.page-actions {
+  position: sticky;
+  top: 1rem;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.65rem;
+  width: min(1000px, calc(100vw - 2rem));
+  margin: 1rem auto 0;
+}
+
+.page-actions a,
+.page-actions button {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.7rem 0.95rem;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 900;
+  text-decoration: none;
+  background: rgba(255, 253, 248, 0.86);
+  box-shadow: 0 12px 30px rgba(64, 43, 21, 0.1);
+  cursor: pointer;
+}
+
+.page-actions button {
+  color: #fffaf0;
+  background: var(--ink);
+}
+
+.resume-page {
+  width: min(1000px, calc(100vw - 2rem));
+  margin: 1rem auto 4rem;
+  padding: clamp(1.25rem, 4vw, 2.4rem);
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  background: rgba(255, 253, 248, 0.86);
+  box-shadow: var(--shadow);
+}
+
+.resume-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 21rem;
+  gap: 2rem;
+  align-items: start;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 0.55rem;
+  color: #9b541d;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.35rem;
+  font-family: var(--font-serif);
+  font-size: clamp(3.2rem, 9vw, 5.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+}
+
+.headline {
+  display: inline;
+  padding-inline: 0.12em;
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 4vw, 2.6rem);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.045em;
+  background: linear-gradient(transparent 58%, rgba(255, 209, 102, 0.84) 58%);
+}
+
+.contact-card {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  color: var(--ink-soft);
+  font-style: normal;
+  font-weight: 800;
+  background: #fff8ec;
+}
+
+.contact-card a {
+  overflow-wrap: anywhere;
+}
+
+.summary-card {
+  margin-block: 1.35rem;
+  padding: 1.25rem;
+  border-radius: 22px;
+  color: #fffaf0;
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(255, 138, 76, 0.35),
+      transparent 15rem
+    ),
+    var(--ink);
+}
+
+.summary-card h2 {
+  max-width: 18ch;
+  margin-bottom: 0.8rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.85rem, 4vw, 3rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.summary-card p {
+  max-width: 70rem;
+  margin-bottom: 0;
+  color: rgba(255, 250, 240, 0.84);
+  font-size: 1.03rem;
+}
+
+.resume-section {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.section-label {
+  position: sticky;
+  top: 5rem;
+  color: var(--muted);
+}
+
+.experience-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.role,
+.mini-card {
+  break-inside: avoid;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 1rem 1.1rem;
+  background: var(--card);
+}
+
+.role {
+  border-left: 0.4rem solid var(--orange);
+}
+
+.role:nth-child(3n + 1) {
+  border-left-color: var(--green);
+}
+
+.role:nth-child(3n + 2) {
+  border-left-color: var(--orange);
+}
+
+.role:nth-child(3n) {
+  border-left-color: #5da9e9;
+}
+
+.role-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.role-heading h3 {
+  margin-bottom: 0.1rem;
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.role-heading p,
+.role-heading span {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.role ul,
+.mini-card ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.role li + li,
+.mini-card li + li {
+  margin-top: 0.22rem;
+}
+
+.tech {
+  margin: 0.65rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  font-weight: 900;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+  margin-top: 0.9rem;
+  margin-left: 13.5rem;
+}
+
+.mini-card h2 {
+  margin-bottom: 0.6rem;
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+@media (max-width: 820px) {
+  .resume-header,
+  .resume-section,
+  .resume-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-grid {
+    margin-left: 0;
+  }
+
+  .section-label {
+    position: static;
+  }
+
+  .role-heading {
+    display: grid;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0.42in;
+  }
+
+  :root {
+    --ink: #111;
+    --ink-soft: #333;
+    --muted: #555;
+    --card: #fff;
+    --line: #ccc;
+    --shadow: none;
+  }
+
+  html,
+  body {
+    background: #fff;
+  }
+
+  .page-actions {
+    display: none;
+  }
+
+  .resume-page {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: #fff;
+  }
+
+  .resume-header {
+    grid-template-columns: 1fr 2.4in;
+    gap: 0.25in;
+    padding-bottom: 0.12in;
+  }
+
+  h1 {
+    font-size: 36pt;
+  }
+
+  .headline {
+    font-size: 18pt;
+  }
+
+  .contact-card,
+  .role,
+  .mini-card,
+  .summary-card {
+    border-radius: 10pt;
+    box-shadow: none;
+  }
+
+  .summary-card {
+    margin-block: 0.12in;
+    padding: 0.14in;
+    color: #111;
+    background: #fff8df;
+  }
+
+  .summary-card h2 {
+    font-size: 20pt;
+  }
+
+  .summary-card p {
+    color: #333;
+    font-size: 9.5pt;
+  }
+
+  .resume-section {
+    grid-template-columns: 1.18in 1fr;
+    gap: 0.18in;
+    margin-top: 0.12in;
+  }
+
+  .section-label,
+  .eyebrow,
+  .role-heading p,
+  .role-heading span {
+    font-size: 7.5pt;
+  }
+
+  .experience-list {
+    gap: 0.07in;
+  }
+
+  .role,
+  .mini-card {
+    padding: 0.1in 0.12in;
+  }
+
+  .role-heading h3 {
+    font-size: 13pt;
+  }
+
+  .role li,
+  .mini-card li,
+  .tech,
+  .contact-card {
+    font-size: 8.5pt;
+  }
+
+  .resume-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.08in;
+    margin-top: 0.08in;
+    margin-left: 1.36in;
+  }
+
+  .mini-card h2 {
+    font-size: 13pt;
+  }
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "company": "Motion / Wonderly",
+    "title": "Platform & Infrastructure Engineer",
+    "start": "2025-04",
+    "end": "2026-06",
+    "displayDate": "Apr 2025 – Jun 2026",
+    "headline": "Made fast-moving engineering workflows safer and clearer.",
+    "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and incident automation across TypeScript and .NET systems.",
+    "bullets": [
+      "Built and maintained internal CI/CD tooling for large TypeScript and .NET monorepos.",
+      "Improved CircleCI, WCI, Dagger, and GitHub based workflows so developers got faster and clearer feedback.",
+      "Created deployment automation for backend, web, and internal services.",
+      "Migrated secret management workflows to GCP Secret Manager, External Secrets, and internal tooling.",
+      "Built on-call, incident, postmortem, and Slack automation to make production support more repeatable."
+    ],
+    "technologies": [
+      "GCP",
+      "GKE",
+      "CircleCI",
+      "Dagger",
+      "TypeScript",
+      ".NET",
+      "Kubernetes",
+      "ArgoCD",
+      "Pulumi",
+      "Datadog"
+    ]
+  },
+  {
+    "company": "Arturo AI",
+    "title": "Senior DevOps Engineer",
+    "start": "2024-10",
+    "end": "2025-03",
+    "displayDate": "Oct 2024 – Mar 2025",
+    "headline": "Created reusable AWS infrastructure and CI/CD patterns.",
+    "summary": "Helped move infrastructure from a cowboy-style setup toward Terraform-backed standards and self-service delivery workflows.",
+    "bullets": [
+      "Created AWS infrastructure through Terraform.",
+      "Created modular CI/CD pipelines to enable developers to ship their own Terraform.",
+      "Created reusable modules to express company standards."
+    ],
+    "technologies": [
+      "AWS",
+      "Terraform",
+      "CI/CD",
+      "Bash",
+      "Python",
+      "JavaScript"
+    ]
+  },
+  {
+    "company": "TAB Bank",
+    "title": "Platform Engineering Architect",
+    "start": "2022-02",
+    "end": "2024-09",
+    "displayDate": "Feb 2022 – Sept 2024",
+    "headline": "Reframed DevOps as platform engineering.",
+    "summary": "Stabilized inherited systems, architected EKS migration, onboarded ArgoCD, and developed Cue-based configuration management.",
+    "bullets": [
+      "Took over the DevOps team and rebranded it to Platform Engineering.",
+      "Stabilized old Kubernetes cluster and architected migration to EKS.",
+      "Onboarded ArgoCD and developed Cue-based configuration management.",
+      "Participated in on-call rotation for production systems."
+    ],
+    "technologies": [
+      "EKS",
+      "Kubernetes",
+      "ArgoCD",
+      "Terraform",
+      "Cue",
+      "Prometheus",
+      "Grafana",
+      "Loki"
+    ]
+  },
+  {
+    "company": "Let's Go Give",
+    "title": "CTO / Co-Founder",
+    "start": "2020-08",
+    "end": "2022-02",
+    "displayDate": "Aug 2020 – Feb 2022",
+    "headline": "Built a bootstrapped product platform from the ground up.",
+    "summary": "Owned product and technology choices across frontend, backend, local development, Kubernetes delivery, and onboarding workflows.",
+    "bullets": [
+      "Developed frontend and backend applications.",
+      "Implemented Nix/direnv based tooling for fast, stable onboarding on Mac and Linux.",
+      "Implemented Tilt and Kubernetes workflows for local development."
+    ],
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "GKE",
+      "Tilt",
+      "Kustomize",
+      "direnv"
+    ]
+  },
+  {
+    "company": "Parakeet / Brivo",
+    "title": "Sr. Software Developer",
+    "start": "2019-08",
+    "end": "2021-06",
+    "displayDate": "Aug 2019 – Jun 2021",
+    "headline": "Made local development and delivery safer.",
+    "summary": "Led migration work across Kubernetes, Python 3, typed Python, CI/CD, branch deploys, and integration instrumentation.",
+    "bullets": [
+      "Led technical debt remediation including Kubernetes migration, Python 2.7 to 3.9 upgrade, Python typing, and restored tests.",
+      "Managed CI/CD with Bitbucket Pipelines, QA auto-deploys, migrations, tests, and branch deploys.",
+      "Instrumented a large-scale integration framework and fixed long-standing production issues."
+    ],
+    "technologies": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Kubernetes",
+      "Pulumi",
+      "FluxCD",
+      "Helm"
+    ]
+  },
+  {
+    "company": "Domo",
+    "title": "Software Engineer",
+    "start": "2015-03",
+    "end": "2019-08",
+    "displayDate": "Mar 2015 – Aug 2019",
+    "headline": "Built the developer platforms behind large-scale local environments.",
+    "summary": "Designed Kubernetes-backed developer environments, platform CLIs, logging infrastructure, certificate automation, registry caching, and tools that helped teams create and operate service stacks.",
+    "bullets": [
+      "Designed and built Kubernetes-backed developer environments and platform tooling for service stacks.",
+      "Built CLI and GUI tooling for creating, destroying, tunneling into, and operating leased development environments.",
+      "Built logging infrastructure, certificate automation, registry caching, and Kubernetes authentication bridge work."
+    ],
+    "technologies": [
+      "Kubernetes",
+      "TypeScript",
+      "Node.js",
+      "Go",
+      "Java",
+      "Python",
+      "Jenkins",
+      "Docker"
+    ]
+  },
+  {
+    "company": "Jive Communications",
+    "title": "Developer of Awesome",
+    "start": "2013-12",
+    "end": "2015-03",
+    "displayDate": "Dec 2013 – Mar 2015",
+    "headline": "Automated physical SIP-phone testing.",
+    "summary": "Built systems that checked out real phones, drove calls, converted text to speech and speech back to text, and prevented deadlocks in automated tests.",
+    "bullets": [
+      "Built WebSocket implementation of a custom TCP messaging transport called JiveWire.",
+      "Built phone automation using Raspberry Pi boards connected to SIP phones.",
+      "Built a checkout system to prevent deadlocks in automated phone tests."
+    ],
+    "technologies": [
+      "Node.js",
+      "Java",
+      "WebSockets",
+      "Raspberry Pi",
+      "PostgreSQL",
+      "Angular"
+    ]
+  },
+  {
+    "company": "Novarad",
+    "title": "Lead Automation Engineer",
+    "start": "2012-05",
+    "end": "2013-12",
+    "displayDate": "May 2012 – Dec 2013",
+    "headline": "Turned repeated manual QA into automated systems.",
+    "summary": "Built automated tests, reporting systems, distributed test runners, HL7 end-to-end test frameworks, database integration tests, and service harnesses.",
+    "bullets": [
+      "Built automated tests, testing frameworks, and reporting systems.",
+      "Built end-to-end HL7 testing framework for previously manual workflows.",
+      "Built database integration tests for a migration from MSSQL to PostgreSQL."
+    ],
+    "technologies": ["C#", "CodedUI", "HL7", "MSSQL", "PostgreSQL", "IIS"]
+  }
+]

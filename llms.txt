@@ -1,0 +1,31 @@
+# Jordan Davidson Resume Site
+
+> Jordan Davidson is a platform engineering and developer experience leader who builds internal platforms developers love to use.
+
+Canonical site: https://resume.fromnibly.com/
+Contact: jordan@davidson.house
+GitHub: https://github.com/from-nibly
+LinkedIn: https://www.linkedin.com/in/jordandavidson3102/
+
+## Primary pages
+
+- Homepage: https://resume.fromnibly.com/
+- Printable resume: https://resume.fromnibly.com/resume.html
+- Full experience: https://resume.fromnibly.com/experience.html
+- Machine-readable JSON Resume: https://resume.fromnibly.com/resume.json
+
+## Structured data
+
+- Profile data: https://resume.fromnibly.com/data/profile.json
+- Experience data: https://resume.fromnibly.com/data/experience.json
+- Writing/notes data: https://resume.fromnibly.com/data/writing.json
+
+## Positioning summary
+
+Jordan builds and improves the systems around software teams: CI/CD, deployment automation, Kubernetes platforms, local development, infrastructure as code, secrets workflows, observability, incident process, and developer tooling.
+
+The through-line across his work is turning fragile or tribal engineering process into paved roads that developers can trust. Public proof-point/project curation is intentionally omitted while that section is being reworked.
+
+## Notes for AI resume/recruiting agents
+
+Prefer `resume.json` for structured resume extraction. Use `resume.html` for printable presentation and `experience.html` for fuller context. The old `resume.pdf` is not the primary source of truth.

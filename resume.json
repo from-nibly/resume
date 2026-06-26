@@ -1,0 +1,103 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jordan Davidson",
+    "label": "Platform Engineering / Developer Experience",
+    "email": "jordan@davidson.house",
+    "url": "https://resume.fromnibly.com/",
+    "summary": "I build internal platforms developers love to use. I turn fragile deployment paths, local-dev friction, and tribal operational knowledge into systems teams can trust so developers can focus on shipping value instead of fighting the machinery.",
+    "location": {
+      "city": "Spanish Fork",
+      "region": "Utah",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "from-nibly",
+        "url": "https://github.com/from-nibly"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jordandavidson3102",
+        "url": "https://www.linkedin.com/in/jordandavidson3102/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Motion / Wonderly",
+      "position": "Platform & Infrastructure Engineer",
+      "startDate": "2025-04",
+      "endDate": "2026-06",
+      "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and incident automation across TypeScript and .NET systems.",
+      "highlights": [
+        "Built and maintained internal CI/CD tooling for large TypeScript and .NET monorepos.",
+        "Improved CircleCI, WCI, Dagger, and GitHub based workflows so developers got faster and clearer feedback.",
+        "Built on-call, incident, postmortem, and Slack automation to make production support more repeatable."
+      ]
+    },
+    {
+      "name": "Arturo AI",
+      "position": "Senior DevOps Engineer",
+      "startDate": "2024-10",
+      "endDate": "2025-03",
+      "summary": "Created AWS infrastructure through Terraform, modular CI/CD pipelines, and reusable modules that expressed company standards."
+    },
+    {
+      "name": "TAB Bank",
+      "position": "Platform Engineering Architect",
+      "startDate": "2022-02",
+      "endDate": "2024-09",
+      "summary": "Reframed DevOps as platform engineering, stabilized Kubernetes systems, architected EKS migration work, onboarded ArgoCD, and developed Cue-based configuration management."
+    },
+    {
+      "name": "Let's Go Give",
+      "position": "CTO / Co-Founder",
+      "startDate": "2020-08",
+      "endDate": "2022-02",
+      "summary": "Built frontend, backend, local development, deployment, and tooling workflows for a bootstrapped charitable-giving product."
+    },
+    {
+      "name": "Parakeet / Brivo",
+      "position": "Sr. Software Developer",
+      "startDate": "2019-08",
+      "endDate": "2021-06",
+      "summary": "Led Kubernetes migration, Python upgrade work, CI/CD improvements, branch deploys, and integration instrumentation."
+    },
+    {
+      "name": "Domo",
+      "position": "Software Engineer",
+      "startDate": "2015-03",
+      "endDate": "2019-08",
+      "summary": "Designed Kubernetes-backed developer environments, platform CLIs, logging infrastructure, certificate automation, registry caching, and tooling for service stacks."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Platform Engineering",
+      "keywords": [
+        "Developer Experience",
+        "CI/CD",
+        "Kubernetes",
+        "Infrastructure as Code",
+        "Observability",
+        "Incident Process"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "Go",
+        "Terraform",
+        "Pulumi",
+        "ArgoCD",
+        "GCP",
+        "AWS"
+      ]
+    }
+  ]
+}
