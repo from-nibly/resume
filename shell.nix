@@ -5,7 +5,7 @@ in
 pkgs.mkShell {
   buildInputs = with pkgs;
     [
-      nodejs_20
+      nodejs_24
       unstable.pandoc
       unstable.texliveFull
     ];
