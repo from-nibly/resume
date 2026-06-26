@@ -17,8 +17,8 @@ Work Histories are split into summary, tech, and story for easy skimming.
   and internal tooling.
 - Operated and improved Kubernetes and GCP infrastructure through Helm,
   Kustomize, ArgoCD, and Pulumi.
-- Built on-call, incident, postmortem, and Slack automation to make production
-  support more repeatable.
+- Built automated incident response plus on-call, postmortem, and Slack
+  automation to make production support more repeatable.
 
 #### Tech Used
 
@@ -29,6 +29,7 @@ Work Histories are split into summary, tech, and story for easy skimming.
 | [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) | [Kubernetes](https://kubernetes.io/)               | [Dagger](https://dagger.io/)                                                    |
 | [.NET](https://dotnet.microsoft.com/)                  | [Helm](https://helm.sh/)                           | [Datadog](https://www.datadoghq.com/)                                           |
 | [Bun](https://bun.sh/)                                 | [Kustomize](https://kustomize.io/)                 | [Slack](https://slack.com/)                                                     |
+| AI                                                     | [External Secrets](https://external-secrets.io/)   | Incident Automation                                                             |
 | [Docker](https://www.docker.com/)                      | [ArgoCD](https://argo-cd.readthedocs.io/)          | [Notion](https://www.notion.so/)                                                |
 | [BASH](https://www.gnu.org/software/bash/)             | [Pulumi](https://www.pulumi.com/)                  | [GCP Secret Manager](https://cloud.google.com/security/products/secret-manager) |
 

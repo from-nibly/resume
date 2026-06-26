@@ -4,21 +4,22 @@
     "title": "Platform & Infrastructure Engineer",
     "start": "2025-04",
     "end": "2026-06",
-    "displayDate": "Apr 2025 – Jun 2026",
+    "displayDate": "Apr 2025 \u2013 Jun 2026",
     "headline": "Made fast-moving engineering workflows safer and clearer.",
-    "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and incident automation across TypeScript and .NET systems.",
+    "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and automated incident response across TypeScript and .NET systems.",
     "bullets": [
       "Built and maintained internal CI/CD tooling for large TypeScript and .NET monorepos.",
       "Improved CircleCI, WCI, Dagger, and GitHub based workflows so developers got faster and clearer feedback.",
       "Created deployment automation for backend, web, and internal services.",
       "Migrated secret management workflows to GCP Secret Manager, External Secrets, and internal tooling.",
-      "Built on-call, incident, postmortem, and Slack automation to make production support more repeatable."
+      "Built automated incident response plus on-call, postmortem, and Slack automation to make production support more repeatable."
     ],
     "technologies": [
       "GCP",
       "GKE",
       "CircleCI",
       "Dagger",
+      "AI",
       "TypeScript",
       ".NET",
       "Kubernetes",
@@ -32,7 +33,7 @@
     "title": "Senior DevOps Engineer",
     "start": "2024-10",
     "end": "2025-03",
-    "displayDate": "Oct 2024 – Mar 2025",
+    "displayDate": "Oct 2024 \u2013 Mar 2025",
     "headline": "Created reusable AWS infrastructure and CI/CD patterns.",
     "summary": "Helped move infrastructure from a cowboy-style setup toward Terraform-backed standards and self-service delivery workflows.",
     "bullets": [
@@ -54,7 +55,7 @@
     "title": "Platform Engineering Architect",
     "start": "2022-02",
     "end": "2024-09",
-    "displayDate": "Feb 2022 – Sept 2024",
+    "displayDate": "Feb 2022 \u2013 Sept 2024",
     "headline": "Reframed DevOps as platform engineering.",
     "summary": "Stabilized inherited systems, architected EKS migration, onboarded ArgoCD, and developed Cue-based configuration management.",
     "bullets": [
@@ -79,7 +80,7 @@
     "title": "CTO / Co-Founder",
     "start": "2020-08",
     "end": "2022-02",
-    "displayDate": "Aug 2020 – Feb 2022",
+    "displayDate": "Aug 2020 \u2013 Feb 2022",
     "headline": "Built a bootstrapped product platform from the ground up.",
     "summary": "Owned product and technology choices across frontend, backend, local development, Kubernetes delivery, and onboarding workflows.",
     "bullets": [
@@ -103,7 +104,7 @@
     "title": "Sr. Software Developer",
     "start": "2019-08",
     "end": "2021-06",
-    "displayDate": "Aug 2019 – Jun 2021",
+    "displayDate": "Aug 2019 \u2013 Jun 2021",
     "headline": "Made local development and delivery safer.",
     "summary": "Led migration work across Kubernetes, Python 3, typed Python, CI/CD, branch deploys, and integration instrumentation.",
     "bullets": [
@@ -126,7 +127,7 @@
     "title": "Software Engineer",
     "start": "2015-03",
     "end": "2019-08",
-    "displayDate": "Mar 2015 – Aug 2019",
+    "displayDate": "Mar 2015 \u2013 Aug 2019",
     "headline": "Built the developer platforms behind large-scale local environments.",
     "summary": "Designed Kubernetes-backed developer environments, platform CLIs, logging infrastructure, certificate automation, registry caching, and tools that helped teams create and operate service stacks.",
     "bullets": [
@@ -150,7 +151,7 @@
     "title": "Developer of Awesome",
     "start": "2013-12",
     "end": "2015-03",
-    "displayDate": "Dec 2013 – Mar 2015",
+    "displayDate": "Dec 2013 \u2013 Mar 2015",
     "headline": "Automated physical SIP-phone testing.",
     "summary": "Built systems that checked out real phones, drove calls, converted text to speech and speech back to text, and prevented deadlocks in automated tests.",
     "bullets": [
@@ -172,7 +173,7 @@
     "title": "Lead Automation Engineer",
     "start": "2012-05",
     "end": "2013-12",
-    "displayDate": "May 2012 – Dec 2013",
+    "displayDate": "May 2012 \u2013 Dec 2013",
     "headline": "Turned repeated manual QA into automated systems.",
     "summary": "Built automated tests, reporting systems, distributed test runners, HL7 end-to-end test frameworks, database integration tests, and service harnesses.",
     "bullets": [
