@@ -143,6 +143,66 @@ img {
   gap: 0.25rem;
 }
 
+.mobile-menu {
+  position: relative;
+  display: none;
+}
+
+.mobile-menu summary {
+  display: grid;
+  place-items: center;
+  gap: 0.18rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobile-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.mobile-menu summary span {
+  display: block;
+  width: 1.05rem;
+  height: 0.14rem;
+  border-radius: 999px;
+  background: var(--ink);
+}
+
+.mobile-menu-panel {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  right: 0;
+  display: grid;
+  min-width: 13rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  background: rgba(255, 253, 248, 0.96);
+  box-shadow: var(--shadow);
+}
+
+.mobile-menu-panel a {
+  padding: 0.9rem 1rem;
+  color: var(--ink-soft);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.mobile-menu-panel a + a {
+  border-top: 1px solid var(--line);
+}
+
+.mobile-menu-panel a:hover,
+.mobile-menu-panel a:focus-visible {
+  color: var(--ink);
+  background: rgba(255, 209, 102, 0.22);
+}
+
 .nav-links a,
 .nav-cta {
   border-radius: 999px;
@@ -724,6 +784,10 @@ img {
 @media (max-width: 920px) {
   .nav-links {
     display: none;
+  }
+
+  .mobile-menu {
+    display: block;
   }
 
   .hero,
