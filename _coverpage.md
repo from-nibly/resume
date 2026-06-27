@@ -1,4 +1,4 @@
-![avatar](_media/avatar.jpg)
+![headshot](_media/headshot.jpg)
 
 # Jordan Davidson
 
