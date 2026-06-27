@@ -35,11 +35,11 @@
       "position": "Platform & Infrastructure Engineer",
       "startDate": "2025-04",
       "endDate": "2026-06",
-      "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and automated incident response across TypeScript and .NET systems.",
+      "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and oncall-bot, an AI-assisted incident workflow that helped resolve 40 infrastructure issues in one week.",
       "highlights": [
         "Built and maintained internal CI/CD tooling for large TypeScript and .NET monorepos.",
         "Improved CircleCI, WCI, Dagger, and GitHub based workflows so developers got faster and clearer feedback.",
-        "Built automated incident response plus on-call, postmortem, and Slack automation to make production support more repeatable."
+        "Built oncall-bot, an AI-assisted incident workflow for root-cause analysis and remediation that helped resolve 40 separate infrastructure issues in one week through focused PRs."
       ]
     },
     {
@@ -88,7 +88,8 @@
         "Infrastructure as Code",
         "Observability",
         "Incident Process",
-        "AI"
+        "AI",
+        "oncall-bot"
       ]
     },
     {

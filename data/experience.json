@@ -6,13 +6,13 @@
     "end": "2026-06",
     "displayDate": "Apr 2025 \u2013 Jun 2026",
     "headline": "Made fast-moving engineering workflows safer and clearer.",
-    "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and automated incident response across TypeScript and .NET systems.",
+    "summary": "Built CI/CD tooling, deployment automation, secret workflows, Kubernetes/GCP infrastructure, and oncall-bot, an AI-assisted incident workflow that helped resolve 40 infrastructure issues in one week.",
     "bullets": [
       "Built and maintained internal CI/CD tooling for large TypeScript and .NET monorepos.",
       "Improved CircleCI, WCI, Dagger, and GitHub based workflows so developers got faster and clearer feedback.",
       "Created deployment automation for backend, web, and internal services.",
       "Migrated secret management workflows to GCP Secret Manager, External Secrets, and internal tooling.",
-      "Built automated incident response plus on-call, postmortem, and Slack automation to make production support more repeatable."
+      "Built oncall-bot, an AI-assisted incident workflow for root-cause analysis and remediation that helped resolve 40 separate infrastructure issues in one week through focused PRs."
     ],
     "technologies": [
       "GCP",
@@ -20,6 +20,7 @@
       "CircleCI",
       "Dagger",
       "AI",
+      "oncall-bot",
       "TypeScript",
       ".NET",
       "Kubernetes",

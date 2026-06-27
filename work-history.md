@@ -17,8 +17,9 @@ Work Histories are split into summary, tech, and story for easy skimming.
   and internal tooling.
 - Operated and improved Kubernetes and GCP infrastructure through Helm,
   Kustomize, ArgoCD, and Pulumi.
-- Built automated incident response plus on-call, postmortem, and Slack
-  automation to make production support more repeatable.
+- Built oncall-bot, an AI-assisted incident workflow for root-cause analysis and
+  remediation that helped resolve 40 separate infrastructure issues in one week
+  through focused PRs.
 
 #### Tech Used
 
@@ -29,7 +30,7 @@ Work Histories are split into summary, tech, and story for easy skimming.
 | [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) | [Kubernetes](https://kubernetes.io/)               | [Dagger](https://dagger.io/)                                                    |
 | [.NET](https://dotnet.microsoft.com/)                  | [Helm](https://helm.sh/)                           | [Datadog](https://www.datadoghq.com/)                                           |
 | [Bun](https://bun.sh/)                                 | [Kustomize](https://kustomize.io/)                 | [Slack](https://slack.com/)                                                     |
-| AI                                                     | [External Secrets](https://external-secrets.io/)   | Incident Automation                                                             |
+| AI                                                     | [External Secrets](https://external-secrets.io/)   | oncall-bot                                                                      |
 | [Docker](https://www.docker.com/)                      | [ArgoCD](https://argo-cd.readthedocs.io/)          | [Notion](https://www.notion.so/)                                                |
 | [BASH](https://www.gnu.org/software/bash/)             | [Pulumi](https://www.pulumi.com/)                  | [GCP Secret Manager](https://cloud.google.com/security/products/secret-manager) |
 
@@ -44,9 +45,12 @@ of the historical details.
 
 The work crossed many repositories and stacks. I worked on Typescript monorepos,
 .NET backend services, internal CI packages, Kubernetes charts, GCP projects,
-GitHub webhooks, Slack automation, and incident tooling. The common theme was
-removing friction so engineers could spend more time delivering product value
-and less time fighting builds, deploys, credentials, and production process.
+GitHub webhooks, Slack automation, and incident tooling. One example was
+oncall-bot, an AI-assisted workflow that helped identify root causes and turn 40
+separate infrastructure issues into focused remediation PRs in one week. The
+common theme was removing friction so engineers could spend more time delivering
+product value and less time fighting builds, deploys, credentials, and
+production process.
 
 # Arturo AI - Senior DevOps Engineer
 
