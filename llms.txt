@@ -15,6 +15,17 @@ Booking: https://calendar.proton.me/bookings#AsMilnowRtwUqyvOdpzFjmEhGWftli6es9P
 - Full experience: https://resume.fromnibly.com/experience.html
 - Machine-readable JSON Resume: https://resume.fromnibly.com/resume.json
 
+## Detailed employer pages
+
+- Motion / Wonderly: https://resume.fromnibly.com/experience/motion-wonderly.html
+- Arturo AI: https://resume.fromnibly.com/experience/arturo-ai.html
+- TAB Bank: https://resume.fromnibly.com/experience/tab-bank.html
+- Let’s Go Give: https://resume.fromnibly.com/experience/lets-go-give.html
+- Parakeet / Brivo: https://resume.fromnibly.com/experience/parakeet-brivo.html
+- Domo: https://resume.fromnibly.com/experience/domo.html
+- Jive Communications: https://resume.fromnibly.com/experience/jive-communications.html
+- Novarad: https://resume.fromnibly.com/experience/novarad.html
+
 ## Structured data
 
 - Profile data: https://resume.fromnibly.com/data/profile.json

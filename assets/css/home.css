@@ -298,6 +298,46 @@ img {
   margin-top: 0;
 }
 
+.employer-hero h1 {
+  max-width: 11ch;
+}
+
+.employer-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.9fr);
+  gap: clamp(1rem, 4vw, 2rem);
+  align-items: start;
+  padding-bottom: clamp(4rem, 8vw, 7rem);
+}
+
+.employer-story {
+  margin-bottom: 0;
+}
+
+.employer-story h2 {
+  margin-top: 0;
+}
+
+.employer-sidebar {
+  position: sticky;
+  top: 7rem;
+  border-radius: var(--radius-lg);
+  padding: clamp(1.2rem, 3vw, 1.6rem);
+}
+
+.impact-list {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--ink-soft);
+  font-weight: 750;
+}
+
+.detail-actions {
+  margin-top: 1.25rem;
+}
+
 .hero-copy h1,
 .section-heading h2,
 .contact-section h2 {
@@ -620,7 +660,34 @@ img {
 .role-card {
   position: relative;
   overflow: hidden;
+  scroll-margin-top: 7rem;
   background: rgba(255, 253, 248, 0.82);
+}
+
+.role-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.role-card-link *,
+.role-card-link:hover,
+.role-card-link:focus-visible {
+  text-decoration: none;
+}
+
+.role-card-link:hover,
+.role-card-link:focus-visible {
+  transform: translateY(-2px);
+}
+
+.role-card-link:focus-visible {
+  outline: 3px solid rgba(255, 138, 76, 0.55);
+  outline-offset: 4px;
 }
 
 .role-card::before {
@@ -792,12 +859,17 @@ img {
 
   .hero,
   .split-section,
-  .philosophy-section {
+  .philosophy-section,
+  .employer-detail {
     grid-template-columns: 1fr;
   }
 
   .section-more {
     grid-column: 1;
+  }
+
+  .employer-sidebar {
+    position: static;
   }
 
   .hero {

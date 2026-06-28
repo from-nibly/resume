@@ -27,7 +27,8 @@
       "ArgoCD",
       "Pulumi",
       "Datadog"
-    ]
+    ],
+    "detailUrl": "experience/motion-wonderly.html"
   },
   {
     "company": "Arturo AI",
@@ -49,7 +50,8 @@
       "Bash",
       "Python",
       "JavaScript"
-    ]
+    ],
+    "detailUrl": "experience/arturo-ai.html"
   },
   {
     "company": "TAB Bank",
@@ -74,7 +76,8 @@
       "Prometheus",
       "Grafana",
       "Loki"
-    ]
+    ],
+    "detailUrl": "experience/tab-bank.html"
   },
   {
     "company": "Let's Go Give",
@@ -98,7 +101,8 @@
       "Tilt",
       "Kustomize",
       "direnv"
-    ]
+    ],
+    "detailUrl": "experience/lets-go-give.html"
   },
   {
     "company": "Parakeet / Brivo",
@@ -121,7 +125,8 @@
       "Pulumi",
       "FluxCD",
       "Helm"
-    ]
+    ],
+    "detailUrl": "experience/parakeet-brivo.html"
   },
   {
     "company": "Domo",
@@ -145,7 +150,8 @@
       "Python",
       "Jenkins",
       "Docker"
-    ]
+    ],
+    "detailUrl": "experience/domo.html"
   },
   {
     "company": "Jive Communications",
@@ -167,7 +173,8 @@
       "Raspberry Pi",
       "PostgreSQL",
       "Angular"
-    ]
+    ],
+    "detailUrl": "experience/jive-communications.html"
   },
   {
     "company": "Novarad",
@@ -182,6 +189,7 @@
       "Built end-to-end HL7 testing framework for previously manual workflows.",
       "Built database integration tests for a migration from MSSQL to PostgreSQL."
     ],
-    "technologies": ["C#", "CodedUI", "HL7", "MSSQL", "PostgreSQL", "IIS"]
+    "technologies": ["C#", "CodedUI", "HL7", "MSSQL", "PostgreSQL", "IIS"],
+    "detailUrl": "experience/novarad.html"
   }
 ]

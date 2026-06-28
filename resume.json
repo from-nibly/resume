@@ -40,42 +40,48 @@
         "Built and maintained internal CI/CD tooling for large TypeScript and .NET monorepos.",
         "Improved CircleCI, WCI, Dagger, and GitHub based workflows so developers got faster and clearer feedback.",
         "Built oncall-bot, an AI-assisted incident workflow for root-cause analysis and remediation that helped resolve 40 separate infrastructure issues in one week through focused PRs."
-      ]
+      ],
+      "url": "https://resume.fromnibly.com/experience/motion-wonderly.html"
     },
     {
       "name": "Arturo AI",
       "position": "Senior DevOps Engineer",
       "startDate": "2024-10",
       "endDate": "2025-03",
-      "summary": "Created AWS infrastructure through Terraform, modular CI/CD pipelines, and reusable modules that expressed company standards."
+      "summary": "Created AWS infrastructure through Terraform, modular CI/CD pipelines, and reusable modules that expressed company standards.",
+      "url": "https://resume.fromnibly.com/experience/arturo-ai.html"
     },
     {
       "name": "TAB Bank",
       "position": "Platform Engineering Architect",
       "startDate": "2022-02",
       "endDate": "2024-09",
-      "summary": "Reframed DevOps as platform engineering, stabilized Kubernetes systems, architected EKS migration work, onboarded ArgoCD, and developed Cue-based configuration management."
+      "summary": "Reframed DevOps as platform engineering, stabilized Kubernetes systems, architected EKS migration work, onboarded ArgoCD, and developed Cue-based configuration management.",
+      "url": "https://resume.fromnibly.com/experience/tab-bank.html"
     },
     {
       "name": "Let's Go Give",
       "position": "CTO / Co-Founder",
       "startDate": "2020-08",
       "endDate": "2022-02",
-      "summary": "Built frontend, backend, local development, deployment, and tooling workflows for a bootstrapped charitable-giving product."
+      "summary": "Built frontend, backend, local development, deployment, and tooling workflows for a bootstrapped charitable-giving product.",
+      "url": "https://resume.fromnibly.com/experience/lets-go-give.html"
     },
     {
       "name": "Parakeet / Brivo",
       "position": "Sr. Software Developer",
       "startDate": "2019-08",
       "endDate": "2021-06",
-      "summary": "Led Kubernetes migration, Python upgrade work, CI/CD improvements, branch deploys, and integration instrumentation."
+      "summary": "Led Kubernetes migration, Python upgrade work, CI/CD improvements, branch deploys, and integration instrumentation.",
+      "url": "https://resume.fromnibly.com/experience/parakeet-brivo.html"
     },
     {
       "name": "Domo",
       "position": "Software Engineer",
       "startDate": "2015-03",
       "endDate": "2019-08",
-      "summary": "Designed Kubernetes-backed developer environments, platform CLIs, logging infrastructure, certificate automation, registry caching, and tooling for service stacks."
+      "summary": "Designed Kubernetes-backed developer environments, platform CLIs, logging infrastructure, certificate automation, registry caching, and tooling for service stacks.",
+      "url": "https://resume.fromnibly.com/experience/domo.html"
     }
   ],
   "skills": [

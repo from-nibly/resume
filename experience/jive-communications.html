@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Detailed experience notes for Jordan Davidson at Jive Communications."
+    />
+    <title>Jive Communications — Jordan Davidson Experience</title>
+    <link
+      rel="canonical"
+      href="https://resume.fromnibly.com/experience/jive-communications.html"
+    />
+    <link rel="stylesheet" href="../assets/css/home.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="../index.html" aria-label="Jordan Davidson home">
+          <span class="brand-mark">JD</span>
+          <span>Jordan Davidson</span>
+        </a>
+        <div class="nav-links">
+          <a href="../experience.html">Experience</a>
+          <a href="../writing.html">Philosophy</a>
+          <a href="../resume.html">Résumé</a>
+          <a href="../index.html#contact">Contact</a>
+        </div>
+        <a
+          class="nav-cta"
+          href="https://calendar.proton.me/bookings#AsMilnowRtwUqyvOdpzFjmEhGWftli6es9PToxS27lA="
+          >Book a call</a
+        >
+        <details class="mobile-menu">
+          <summary aria-label="Open navigation menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </summary>
+          <div class="mobile-menu-panel">
+            <a href="../experience.html">Experience</a>
+            <a href="../writing.html">Philosophy</a>
+            <a href="../resume.html">Résumé</a>
+            <a href="../index.html#contact">Contact</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="subpage-hero section-shell employer-hero">
+        <p class="eyebrow">Hardware test automation</p>
+        <h1>Jive Communications</h1>
+        <p class="hero-lede">Developer of Awesome · Dec 2013 – Mar 2015</p>
+      </section>
+
+      <section class="section-shell employer-detail">
+        <article class="article-card employer-story">
+          <p class="eyebrow">Role focus</p>
+          <h2>Automated physical SIP-phone testing.</h2>
+          <p>
+            At Jive I built automated testing systems that controlled real SIP
+            phones so edge cases could be tested against actual hardware instead
+            of assumptions.
+          </p>
+
+          <section>
+            <h2>What I built</h2>
+            <p>
+              I built a WebSocket implementation of a custom TCP messaging
+              transport called JiveWire, a JavaScript port of JiveWire, and
+              phone automation using Raspberry Pi boards connected to SIP
+              phones.
+            </p>
+          </section>
+          <section>
+            <h2>The test workflow</h2>
+            <p>
+              A simple test could check out two phones, make one dial another,
+              convert text to speech, play audio through one phone, record from
+              the other, convert speech back to text, and compare the result.
+            </p>
+          </section>
+          <section>
+            <h2>Concurrency and orchestration</h2>
+            <p>
+              I built a checkout system for test phones using the banker’s
+              algorithm to avoid deadlocks, plus messaging transport to send
+              commands to phones while checked out.
+            </p>
+          </section>
+          <section>
+            <h2>Why it mattered</h2>
+            <p>
+              The system made it possible to test manufacturer-specific SIP
+              phone behavior using real devices instead of guessing how they
+              followed or deviated from the SIP standard.
+            </p>
+          </section>
+        </article>
+
+        <aside class="role-card employer-sidebar">
+          <p class="card-kicker">Representative work</p>
+          <ul class="impact-list">
+            <li>Physical SIP-phone test automation</li>
+            <li>Raspberry Pi phone control boards</li>
+            <li>JiveWire transport implementation</li>
+            <li>Phone checkout/deadlock prevention</li>
+            <li>Text-to-speech and speech-to-text test loop</li>
+          </ul>
+          <ul class="tag-list" aria-label="Jive Communications technologies">
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>WebSockets</li>
+            <li>Raspberry Pi</li>
+            <li>PostgreSQL</li>
+            <li>SIP Phones</li>
+            <li>Angular</li>
+          </ul>
+          <div class="detail-actions">
+            <a
+              class="button button-secondary"
+              href="../experience.html#jive-communications"
+              >Back to experience</a
+            >
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
