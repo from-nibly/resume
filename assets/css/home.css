@@ -96,7 +96,6 @@ img {
   top: 0;
   z-index: 10;
   padding: 1rem;
-  backdrop-filter: blur(18px);
 }
 
 .nav-shell {
@@ -463,9 +462,8 @@ img {
 .note-card,
 .contact-section {
   border: 1px solid var(--line);
-  background: var(--card);
+  background: rgba(255, 253, 248, 0.94);
   box-shadow: var(--shadow);
-  backdrop-filter: blur(20px);
 }
 
 .hero-card {

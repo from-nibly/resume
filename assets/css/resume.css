@@ -374,9 +374,13 @@ h1 {
   }
 
   .resume-section {
-    grid-template-columns: 1.18in 1fr;
-    gap: 0.18in;
+    display: block;
     margin-top: 0.12in;
+  }
+
+  .section-label {
+    position: static;
+    margin-bottom: 0.08in;
   }
 
   .section-label,
@@ -392,6 +396,8 @@ h1 {
 
   .role,
   .mini-card {
+    break-inside: avoid-page;
+    page-break-inside: avoid;
     padding: 0.1in 0.12in;
   }
 
@@ -410,7 +416,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     gap: 0.08in;
     margin-top: 0.08in;
-    margin-left: 1.36in;
+    margin-left: 0;
   }
 
   .mini-card h2 {
