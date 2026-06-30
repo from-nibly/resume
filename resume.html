@@ -11,7 +11,327 @@
     <title>Jordan Davidson — Printable Resume</title>
     <link rel="canonical" href="https://resume.fromnibly.com/resume.html" />
     <link rel="alternate" type="application/json" href="resume.json" />
-    <link rel="stylesheet" href="assets/css/resume.css" />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #171a21;
+        --muted: #4f5663;
+        --soft: #6b7280;
+        --line: #d8cdbd;
+        --accent: #b86122;
+        --paper: #fffdf8;
+        --wash: #fff7ea;
+        --font-sans:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times,
+          serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background: #f5ecdf;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        font-family: var(--font-sans);
+        font-size: 15px;
+        line-height: 1.38;
+        background:
+          radial-gradient(circle at 0 0, rgba(255, 209, 102, 0.2), transparent 24rem),
+          linear-gradient(135deg, #fffaf0 0%, #f5ecdf 100%);
+      }
+
+      a {
+        color: inherit;
+        text-decoration-color: rgba(184, 97, 34, 0.45);
+        text-underline-offset: 0.15em;
+      }
+
+      .page-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.65rem;
+        width: min(8.5in, calc(100vw - 2rem));
+        margin: 1rem auto 0;
+      }
+
+      .page-actions a,
+      .page-actions button {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0.6rem 0.85rem;
+        color: var(--ink);
+        font: inherit;
+        font-weight: 750;
+        background: rgba(255, 253, 248, 0.92);
+        cursor: pointer;
+      }
+
+      .page-actions button {
+        color: #fffaf0;
+        background: var(--ink);
+      }
+
+      .resume-page {
+        width: min(8.5in, calc(100vw - 2rem));
+        min-height: 11in;
+        margin: 1rem auto 3rem;
+        padding: 0.55in;
+        background: var(--paper);
+        border: 1px solid rgba(69, 52, 29, 0.14);
+        box-shadow: 0 24px 70px rgba(64, 43, 21, 0.12);
+      }
+
+      .resume-header {
+        padding-bottom: 0.16in;
+        border-bottom: 2px solid var(--ink);
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 0.03in;
+        font-family: var(--font-serif);
+        font-size: 30pt;
+        line-height: 0.95;
+        letter-spacing: -0.035em;
+      }
+
+      .target-label {
+        margin: 0 0 0.08in;
+        color: var(--accent);
+        font-size: 10pt;
+        font-weight: 850;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .contact-line {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.08in 0.14in;
+        margin: 0;
+        color: var(--muted);
+        font-size: 9.2pt;
+        font-style: normal;
+        font-weight: 650;
+      }
+
+      .contact-line span,
+      .contact-line a {
+        white-space: nowrap;
+      }
+
+      .contact-line span:not(:last-child)::after,
+      .contact-line a:not(:last-child)::after {
+        content: "";
+      }
+
+      .section {
+        margin-top: 0.18in;
+      }
+
+      .section-title {
+        display: flex;
+        align-items: center;
+        gap: 0.12in;
+        margin: 0 0 0.08in;
+        color: var(--accent);
+        font-size: 9pt;
+        font-weight: 900;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+      }
+
+      .section-title::after {
+        content: "";
+        height: 1px;
+        flex: 1;
+        background: var(--line);
+      }
+
+      .summary {
+        margin-bottom: 0;
+        max-width: 7.1in;
+        color: #252a33;
+        font-size: 10.5pt;
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.06in 0.18in;
+        margin: 0;
+      }
+
+      .skill-row {
+        display: grid;
+        grid-template-columns: 1.35in 1fr;
+        gap: 0.08in;
+        align-items: start;
+        break-inside: avoid;
+      }
+
+      .skill-row dt {
+        color: var(--ink);
+        font-weight: 850;
+      }
+
+      .skill-row dd {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .role {
+        break-inside: avoid;
+        padding-top: 0.03in;
+      }
+
+      .role + .role {
+        margin-top: 0.14in;
+      }
+
+      .role-heading {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 0.12in;
+        align-items: baseline;
+        margin-bottom: 0.04in;
+      }
+
+      .role-title {
+        margin: 0;
+        font-size: 11.2pt;
+        line-height: 1.15;
+      }
+
+      .company {
+        color: var(--muted);
+        font-weight: 760;
+      }
+
+      .dates {
+        color: var(--soft);
+        font-size: 9pt;
+        font-weight: 760;
+        white-space: nowrap;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 0.18in;
+      }
+
+      li + li {
+        margin-top: 0.025in;
+      }
+
+      .tech {
+        margin: 0.06in 0 0;
+        color: var(--muted);
+        font-size: 8.8pt;
+        font-weight: 700;
+      }
+
+      .proof-points {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.08in 0.18in;
+      }
+
+      .proof-points p {
+        margin-bottom: 0;
+      }
+
+      .proof-points strong {
+        color: var(--ink);
+      }
+
+      @media screen and (max-width: 760px) {
+        .resume-page {
+          padding: 1.25rem;
+        }
+
+        .skills-grid,
+        .proof-points {
+          grid-template-columns: 1fr;
+        }
+
+        .skill-row {
+          grid-template-columns: 1fr;
+          gap: 0.02in;
+        }
+
+        .role-heading {
+          grid-template-columns: 1fr;
+          gap: 0.02in;
+        }
+      }
+
+      @media print {
+        @page {
+          margin: 0.45in;
+        }
+
+        html,
+        body {
+          background: #fff;
+        }
+
+        body {
+          font-size: 9.5pt;
+          line-height: 1.28;
+        }
+
+        .page-actions {
+          display: none;
+        }
+
+        .resume-page {
+          width: auto;
+          min-height: 0;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          box-shadow: none;
+          background: #fff;
+        }
+
+        h1 {
+          font-size: 26pt;
+        }
+
+        .target-label,
+        .section-title {
+          color: #8a4514;
+        }
+
+        .summary {
+          font-size: 9.5pt;
+        }
+
+        .contact-line,
+        .dates,
+        .tech {
+          font-size: 8.2pt;
+        }
+
+        .role-title {
+          font-size: 10.4pt;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="page-actions" aria-label="Resume actions">
@@ -21,225 +341,140 @@
 
     <main class="resume-page">
       <header class="resume-header">
-        <div>
-          <p class="eyebrow">Platform Engineering • Developer Experience</p>
-          <h1>Jordan Davidson</h1>
-          <p class="headline">
-            I build internal platforms developers love to use.
-          </p>
-        </div>
-        <address class="contact-card">
-          <span>Spanish Fork, Utah</span>
+        <p class="target-label">Platform Engineering · Developer Experience · Reliability</p>
+        <h1>Jordan Davidson</h1>
+        <address class="contact-line">
+          <span>Spanish Fork, Utah · Remote US</span>
           <a href="mailto:jordan@davidson.house">jordan@davidson.house</a>
           <a href="https://github.com/from-nibly">github.com/from-nibly</a>
-          <a href="https://www.linkedin.com/in/jordandavidson3102/">
-            linkedin.com/in/jordandavidson3102
-          </a>
+          <a href="https://www.linkedin.com/in/jordandavidson3102/">linkedin.com/in/jordandavidson3102</a>
           <a href="https://resume.fromnibly.com/">resume.fromnibly.com</a>
         </address>
       </header>
 
-      <section class="summary-card">
-        <h2>I turn messy engineering systems into paved roads.</h2>
-        <p>
-          Across startups, banks, and product companies, my work has usually
-          lived at the seams: CI/CD, infrastructure, local development,
-          deployments, secrets, observability, and incident process. I like
-          finding the fragile parts developers keep tripping over and turning
-          them into tools, workflows, and platforms people can trust.
+      <section class="section" aria-labelledby="summary-title">
+        <h2 class="section-title" id="summary-title">Summary</h2>
+        <p class="summary">
+          Platform engineer focused on developer experience, reliable delivery,
+          and low-toil operations. I turn fragile deployment paths, local-dev
+          friction, and tribal operational knowledge into systems teams can
+          trust so developers can focus on shipping value instead of fighting
+          the machinery.
         </p>
       </section>
 
-      <section class="resume-section">
-        <div class="section-label">Selected experience</div>
-        <div class="experience-list">
-          <article class="role">
-            <div class="role-heading">
-              <div>
-                <h3>Platform & Infrastructure Engineer</h3>
-                <p>Motion / Wonderly</p>
-              </div>
-              <span>Apr 2025 – Jun 2026</span>
-            </div>
-            <ul>
-              <li>
-                Built and maintained CI/CD tooling for large TypeScript and .NET
-                monorepos.
-              </li>
-              <li>
-                Improved CircleCI, WCI, Dagger, and GitHub workflows so
-                developers got faster and clearer feedback.
-              </li>
-              <li>
-                Operated Kubernetes and GCP infrastructure with Helm, Kustomize,
-                ArgoCD, Pulumi, and GCP Secret Manager.
-              </li>
-              <li>
-                Built oncall-bot, an AI-assisted incident workflow for
-                root-cause analysis and remediation that helped resolve 40
-                separate infrastructure issues in one week through focused PRs.
-              </li>
-            </ul>
-            <p class="tech">
-              GCP · GKE · CircleCI · Dagger · AI · oncall-bot · TypeScript ·
-              .NET · Kubernetes · Datadog
-            </p>
-          </article>
-
-          <article class="role">
-            <div class="role-heading">
-              <div>
-                <h3>Senior DevOps Engineer</h3>
-                <p>Arturo AI</p>
-              </div>
-              <span>Oct 2024 – Mar 2025</span>
-            </div>
-            <ul>
-              <li>Created AWS infrastructure through Terraform.</li>
-              <li>
-                Built modular CI/CD pipelines that enabled developers to ship
-                their own Terraform.
-              </li>
-              <li>Created reusable modules to express company standards.</li>
-            </ul>
-            <p class="tech">
-              AWS · Terraform · CI/CD · Bash · Python · JavaScript
-            </p>
-          </article>
-
-          <article class="role">
-            <div class="role-heading">
-              <div>
-                <h3>Platform Engineering Architect</h3>
-                <p>TAB Bank</p>
-              </div>
-              <span>Feb 2022 – Sept 2024</span>
-            </div>
-            <ul>
-              <li>
-                Took over the DevOps team and reframed the work as platform
-                engineering.
-              </li>
-              <li>
-                Stabilized inherited Kubernetes systems and architected EKS
-                migration work.
-              </li>
-              <li>
-                Onboarded ArgoCD and developed Cue-based configuration
-                management.
-              </li>
-              <li>
-                Participated in on-call rotation and production system recovery.
-              </li>
-            </ul>
-            <p class="tech">
-              EKS · Kubernetes · ArgoCD · Terraform · Cue · Prometheus · Grafana
-              · Loki
-            </p>
-          </article>
-
-          <article class="role">
-            <div class="role-heading">
-              <div>
-                <h3>CTO / Co-Founder</h3>
-                <p>Let’s Go Give</p>
-              </div>
-              <span>Aug 2020 – Feb 2022</span>
-            </div>
-            <ul>
-              <li>
-                Developed frontend and backend applications for a bootstrapped
-                product.
-              </li>
-              <li>
-                Implemented Nix/direnv based tooling for fast, stable onboarding
-                on Mac and Linux.
-              </li>
-              <li>
-                Implemented Tilt and Kubernetes workflows for local development.
-              </li>
-            </ul>
-            <p class="tech">
-              TypeScript · React · Node.js · PostgreSQL · GKE · Tilt · Kustomize
-              · direnv
-            </p>
-          </article>
-
-          <article class="role">
-            <div class="role-heading">
-              <div>
-                <h3>Sr. Software Developer</h3>
-                <p>Parakeet / Brivo</p>
-              </div>
-              <span>Aug 2019 – Jun 2021</span>
-            </div>
-            <ul>
-              <li>
-                Led technical debt remediation including Kubernetes migration,
-                Python 2.7 to 3.9 upgrade, Python typing, and restored tests.
-              </li>
-              <li>
-                Managed CI/CD with Bitbucket Pipelines, QA auto-deploys,
-                migrations, tests, and branch deploys.
-              </li>
-              <li>
-                Instrumented a large-scale integration framework and fixed
-                several long-standing production issues.
-              </li>
-            </ul>
-            <p class="tech">
-              Python · Django · PostgreSQL · Kubernetes · Pulumi · FluxCD · Helm
-            </p>
-          </article>
-
-          <article class="role">
-            <div class="role-heading">
-              <div>
-                <h3>Software Engineer</h3>
-                <p>Domo</p>
-              </div>
-              <span>Mar 2015 – Aug 2019</span>
-            </div>
-            <ul>
-              <li>
-                Designed and built Kubernetes-backed developer environments and
-                platform tooling for service stacks.
-              </li>
-              <li>
-                Built CLI and GUI tooling for creating, destroying, tunneling
-                into, and operating leased development environments.
-              </li>
-              <li>
-                Built logging infrastructure, certificate automation, registry
-                caching, and Kubernetes authentication bridge work.
-              </li>
-            </ul>
-            <p class="tech">
-              Kubernetes · TypeScript · Node.js · Go · Java · Python · Jenkins ·
-              Docker
-            </p>
-          </article>
-        </div>
+      <section class="section" aria-labelledby="skills-title">
+        <h2 class="section-title" id="skills-title">Skills</h2>
+        <dl class="skills-grid">
+          <div class="skill-row">
+            <dt>Platform / DevEx</dt>
+            <dd>Internal platforms, CI/CD, deployment systems, local development, self-service workflows</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Infrastructure</dt>
+            <dd>Kubernetes, GKE, EKS, Terraform, Pulumi, Helm, Kustomize, ArgoCD, GitOps</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Reliability</dt>
+            <dd>Observability, incident response, on-call process, production recovery, Datadog, Prometheus, Grafana, Loki</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Languages / Build</dt>
+            <dd>TypeScript, Node.js, Python, Go, Bash, Dagger, GitHub Actions, CircleCI</dd>
+          </div>
+        </dl>
       </section>
 
-      <section class="resume-grid">
-        <article class="mini-card">
-          <h2>Core strengths</h2>
+      <section class="section" aria-labelledby="experience-title">
+        <h2 class="section-title" id="experience-title">Professional Experience</h2>
+
+        <article class="role">
+          <div class="role-heading">
+            <h3 class="role-title">Platform &amp; Infrastructure Engineer <span class="company">— Motion / Wonderly</span></h3>
+            <span class="dates">Apr 2025 – Jun 2026</span>
+          </div>
           <ul>
-            <li>Developer experience and platform product thinking</li>
-            <li>CI/CD, deployment systems, and local development workflows</li>
-            <li>Kubernetes, infrastructure as code, and cloud operations</li>
-            <li>Incident process, observability, and production support</li>
+            <li>Built and maintained CI/CD tooling for large TypeScript and .NET monorepos, improving the speed, reliability, and clarity of developer feedback.</li>
+            <li>Operated Kubernetes and GCP infrastructure with Helm, Kustomize, ArgoCD, Pulumi, and GCP Secret Manager.</li>
+            <li>Improved CircleCI, WCI, Dagger, and GitHub workflows for safer delivery, clearer failures, and lower operational toil.</li>
+            <li>Built oncall-bot, an AI-assisted incident workflow for root-cause analysis and remediation that helped resolve 40 infrastructure issues in one week through focused PRs.</li>
           </ul>
+          <p class="tech">GCP · GKE · Kubernetes · ArgoCD · Helm · Kustomize · Pulumi · CircleCI · Dagger · Datadog · TypeScript · .NET · AI</p>
         </article>
-        <article class="mini-card">
-          <h2>Operating style</h2>
+
+        <article class="role">
+          <div class="role-heading">
+            <h3 class="role-title">Senior DevOps Engineer <span class="company">— Arturo AI</span></h3>
+            <span class="dates">Oct 2024 – Mar 2025</span>
+          </div>
           <ul>
-            <li>Find the repeated pain hiding inside engineering process</li>
-            <li>Turn tribal knowledge into paved roads and reusable tools</li>
-            <li>Prefer systems that make the safe path the easy path</li>
+            <li>Created AWS infrastructure through Terraform for production engineering teams.</li>
+            <li>Built modular CI/CD pipelines that enabled developers to ship their own Terraform changes safely.</li>
+            <li>Created reusable Terraform modules to encode company standards and reduce repeated infrastructure work.</li>
           </ul>
+          <p class="tech">AWS · Terraform · CI/CD · Infrastructure as Code · Bash · Python · JavaScript</p>
         </article>
+
+        <article class="role">
+          <div class="role-heading">
+            <h3 class="role-title">Platform Engineering Architect <span class="company">— TAB Bank</span></h3>
+            <span class="dates">Feb 2022 – Sept 2024</span>
+          </div>
+          <ul>
+            <li>Took over the DevOps team and reframed the work around platform engineering, standards, reliability, and developer enablement.</li>
+            <li>Stabilized inherited Kubernetes systems and architected EKS migration work.</li>
+            <li>Onboarded ArgoCD and developed Cue-based configuration management for repeatable multi-environment delivery.</li>
+            <li>Participated in on-call rotation, production system recovery, and incident response for regulated banking systems.</li>
+          </ul>
+          <p class="tech">EKS · Kubernetes · ArgoCD · Terraform · GitOps · Cue · Prometheus · Grafana · Loki · Production recovery</p>
+        </article>
+
+        <article class="role">
+          <div class="role-heading">
+            <h3 class="role-title">CTO / Co-Founder <span class="company">— Let’s Go Give</span></h3>
+            <span class="dates">Aug 2020 – Feb 2022</span>
+          </div>
+          <ul>
+            <li>Developed frontend and backend applications for a bootstrapped charitable-giving product.</li>
+            <li>Implemented Nix/direnv tooling for fast, stable onboarding on Mac and Linux.</li>
+            <li>Implemented Tilt and Kubernetes workflows for local development and deployment iteration.</li>
+          </ul>
+          <p class="tech">TypeScript · React · Node.js · PostgreSQL · GKE · Kubernetes · Tilt · Kustomize · direnv</p>
+        </article>
+
+        <article class="role">
+          <div class="role-heading">
+            <h3 class="role-title">Sr. Software Developer <span class="company">— Parakeet / Brivo</span></h3>
+            <span class="dates">Aug 2019 – Jun 2021</span>
+          </div>
+          <ul>
+            <li>Led technical debt remediation including Kubernetes migration, Python 2.7 to 3.9 upgrade, Python typing, and restored tests.</li>
+            <li>Managed CI/CD with Bitbucket Pipelines, QA auto-deploys, migrations, tests, and branch deploys.</li>
+            <li>Instrumented a large-scale integration framework and fixed several long-standing production issues.</li>
+          </ul>
+          <p class="tech">Python · Django · PostgreSQL · Kubernetes · Pulumi · FluxCD · Helm · CI/CD</p>
+        </article>
+
+        <article class="role">
+          <div class="role-heading">
+            <h3 class="role-title">Software Engineer <span class="company">— Domo</span></h3>
+            <span class="dates">Mar 2015 – Aug 2019</span>
+          </div>
+          <ul>
+            <li>Designed and built Kubernetes-backed developer environments and platform tooling for service stacks.</li>
+            <li>Built CLI and GUI tooling for creating, destroying, tunneling into, and operating leased development environments.</li>
+            <li>Built logging infrastructure, certificate automation, registry caching, and Kubernetes authentication bridge work.</li>
+          </ul>
+          <p class="tech">Kubernetes · TypeScript · Node.js · Go · Java · Python · Jenkins · Docker</p>
+        </article>
+      </section>
+
+      <section class="section" aria-labelledby="proof-title">
+        <h2 class="section-title" id="proof-title">Selected Proof Points</h2>
+        <div class="proof-points">
+          <p><strong>Developer friction:</strong> Repeatedly turned fragile deployment and local-development paths into clearer tools, workflows, and paved roads.</p>
+          <p><strong>Production operations:</strong> Worked across observability, incident response, on-call support, and recovery in startup, product, and regulated banking environments.</p>
+        </div>
       </section>
     </main>
   </body>
